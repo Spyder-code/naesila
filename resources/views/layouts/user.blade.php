@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script data-ad-client="ca-pub-4799227766900844" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <meta charset="UTF-8">
     <meta name="keywords" content="Homes, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
