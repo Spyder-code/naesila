@@ -15,17 +15,17 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url('/') }}">
-    <meta property="og:title" content="CV.NAESILA Transport">
+    <meta property="og:title" content="Rental mobil surabaya">
     <meta property="og:description" content="Melayani sewa segala macam mobil beserta drivernya, cocok untuk perjalanan wisata, acara wedding, instansi, ziarah wali dll.">
     <meta property="og:image" content="@yield('imgMeta')">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="{{ url('/') }}">
-    <meta property="twitter:title" content="CV.NAESILA Transport">
+    <meta property="twitter:title" content="Rental mobil surabaya">
     <meta property="twitter:description" content="Melayani sewa segala macam mobil beserta drivernya, cocok untuk perjalanan wisata, acara wedding, instansi, ziarah wali dll.">
     <meta property="twitter:image" content="@yield('imgMeta')">
-    <title>CV.NAESILA Transport</title>
+    <title>Rental mobil surabaya</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
