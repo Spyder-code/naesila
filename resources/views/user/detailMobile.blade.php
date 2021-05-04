@@ -90,7 +90,7 @@
                                 <h5>Titto Ferimadjanto</h5>
                                 <table>
                                     <tr>
-                                        <td>WhatsApp : <span>085851134222</span></td>
+                                        <td>WhatsApp : <span>081235448344</span></td>
                                     </tr>
                                     {{-- <tr>
                                         <td>Email : <span>spydercode01@gmail.com</span></td>

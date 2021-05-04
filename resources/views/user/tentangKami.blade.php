@@ -16,7 +16,7 @@
                 <div class="about-text">
                     <h2>CV.Naesila Transportasi</h2>
                     <p>Melayani perjalanan anda dengan driver handal berpengalaman, ramah, rapi, bersih dan bertanggung jawab. Segera jadwalkan perjalanan anda bersama kami karena kepuasan anda kebanggaan kami .</p>
-                    <a href="https://wa.me/6285851134222?text=Saya mau tanya %0A{{ url('/') }}" target="_blank" class="site-btn a-btn">Hub Via WhatsApp</a>
+                    <a href="https://wa.me/6281235448344?text=Saya mau tanya %0A{{ url('/') }}" target="_blank" class="site-btn a-btn">Hub Via WhatsApp</a>
                 </div>
             </div>
             <div class="col-xl-6" style="background-color: #6F6F8A">

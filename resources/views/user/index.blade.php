@@ -136,7 +136,7 @@
                                 </div>
                             </div>
                             <div class="room-price">
-                                <a href="https://wa.me/6285851134222?text=Saya mau tanya tentang mobil {{$item->nama}}%0A{{ url('mobil/'.$item->id) }}" class="site-btn btn-line" target="_blank">WhatsApp</a>
+                                <a href="https://wa.me/6281235448344?text=Saya mau tanya tentang mobil {{$item->nama}}%0A{{ url('mobil/'.$item->id) }}" class="site-btn btn-line" target="_blank">WhatsApp</a>
                             </div>
                             <a href="{{ url('mobil/'.$item->nama) }}" class="site-btn btn-line">Detail Mobil</a>
                         </div>
@@ -182,7 +182,7 @@
                                     </div>
                                 </div>
                                 <div class="popular-room-price">
-                                    <a href="https://wa.me/6285851134222?text=Saya mau tanya tentang mobil {{$item->nama}}%0A{{ url('mobil/'.$item->id) }}" target="_blank" class="site-btn btn-line">WhatsApp</a>
+                                    <a href="https://wa.me/6281235448344?text=Saya mau tanya tentang mobil {{$item->nama}}%0A{{ url('mobil/'.$item->id) }}" target="_blank" class="site-btn btn-line">WhatsApp</a>
                                 </div>
                                 <a href="{{ url('mobil/'.$item->nama) }}" class="site-btn btn-line">Detail Mobil</a>
                             </div>
