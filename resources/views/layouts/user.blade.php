@@ -90,7 +90,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="about-footer">
                         <h5>Kontak Saya</h5>
-                        <a href="https://wa.me/6285851134222?text=Saya mau tanya %0A{{ url('/') }}" target="_blank" class="site-btn a-btn">Hub Via WhatsApp</a>
+                        <a href="https://wa.me/6281235448344?text=Saya mau tanya %0A{{ url('/') }}" target="_blank" class="site-btn a-btn">Hub Via WhatsApp</a>
                         {{-- <div class="footer-social">
                             <a href="#"><i class="fa fa-pinterest"></i></a>
                             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -107,7 +107,7 @@
                             <li><i class="flaticon-placeholder"></i><span>Jl. Pandugo Gg 2 no.07 Kec. Rungkut, Kota SBY, Jawa Timur</span>
                             </li>
                             {{-- <li><i class="flaticon-envelope"></i><span>naesila@email.com</span></li> --}}
-                            <li><i class="flaticon-smartphone"></i><span>085851134222</span></li>
+                            <li><i class="flaticon-smartphone"></i><span>081235448344</span></li>
                         </ul>
                         <p>Senin - Minggu </p>
                         <p>00.00 - 24.59</p>
