@@ -22,7 +22,7 @@
                     <img class="d-block w-100 ban-1" alt="First slide">
                     <div class="container hero-text text-white">
                         <h2>Rental Mobil Surabaya</h2>
-                        <h1>CV.Naesila Transport</h1>
+                        <h1>Naesila Transport CV</h1>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -136,7 +136,7 @@
                                 </div>
                             </div>
                             <div class="room-price">
-                                <a href="https://wa.me/6281235448344?text=Saya mau tanya tentang mobil {{$item->nama}}%0A{{ url('mobil/'.$item->id) }}" class="site-btn btn-line" target="_blank">WhatsApp</a>
+                                <a href="https://wa.me/{{ env('PHONE') }}?text=Saya mau tanya tentang mobil {{$item->nama}}%0A{{ url('mobil/'.$item->id) }}" class="site-btn btn-line" target="_blank">WhatsApp</a>
                             </div>
                             <a href="{{ url('mobil/'.$item->nama) }}" class="site-btn btn-line">Detail Mobil</a>
                         </div>
@@ -182,7 +182,7 @@
                                     </div>
                                 </div>
                                 <div class="popular-room-price">
-                                    <a href="https://wa.me/6281235448344?text=Saya mau tanya tentang mobil {{$item->nama}}%0A{{ url('mobil/'.$item->id) }}" target="_blank" class="site-btn btn-line">WhatsApp</a>
+                                    <a href="https://wa.me/{{ env('PHONE') }}?text=Saya mau tanya tentang mobil {{$item->nama}}%0A{{ url('mobil/'.$item->id) }}" target="_blank" class="site-btn btn-line">WhatsApp</a>
                                 </div>
                                 <a href="{{ url('mobil/'.$item->nama) }}" class="site-btn btn-line">Detail Mobil</a>
                             </div>
@@ -201,7 +201,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left-side">
-                        <h2><span>CV.NAESILA Transport</span></h2>
+                        <h2><span>NAESILA Transport CV</span></h2>
                         <p>Melayani perjalanan anda dengan driver handal berpengalaman, ramah, rapi, bersih. Segera jadwalkan perjalanan anda bersama kami karena kepuasan anda kebanggaan kami. </p>
                     </div>
                 </div>
@@ -224,11 +224,11 @@
     <div class="room-pic">
         <div class="container-fluid">
             <div class="row sp-40">
-                <img src="{{ asset('user/img/1.jpg')}}" alt="">
-                <img src="{{ asset('user/img/2.jpg')}}" alt="">
-                <img src="{{ asset('user/img/3.jpg')}}" alt="">
-                <img src="{{ asset('user/img/5.jpg')}}" alt="">
-                <img src="{{ asset('user/img/4.jpg')}}" alt="">
+                <img src="{{ asset('images/1.jpeg')}}" alt="">
+                <img src="{{ asset('images/2.jpeg')}}" alt="">
+                <img src="{{ asset('images/3.jpeg')}}" alt="">
+                <img src="{{ asset('images/5.jpeg')}}" alt="">
+                <img src="{{ asset('images/4.jpeg')}}" alt="">
             </div>
         </div>
     </div>

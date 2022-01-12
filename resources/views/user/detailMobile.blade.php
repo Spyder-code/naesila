@@ -90,13 +90,13 @@
                                 <h5>Titto Ferimadjanto</h5>
                                 <table>
                                     <tr>
-                                        <td>WhatsApp : <span>081235448344</span></td>
+                                        <td>WhatsApp : <span>{{ env('PHONE') }}</span></td>
                                     </tr>
                                     {{-- <tr>
                                         <td>Email : <span>spydercode01@gmail.com</span></td>
                                     </tr> --}}
                                 </table>
-                                <a href="https://wa.me/6285851134222?text=Saya mau tanya tentang mobil {{$data->nama}}%0A{{ url('mobil/'.$data->id) }}" target="_blank" class="site-btn list-btn">Sewa Mobil</a>
+                                <a href="https://wa.me/{{ env('PHONE') }}?text=Saya mau tanya tentang mobil {{$data->nama}}%0A{{ url('mobil/'.$data->id) }}" target="_blank" class="site-btn list-btn">Sewa Mobil</a>
                             </div>
                         </div>
                     </div>

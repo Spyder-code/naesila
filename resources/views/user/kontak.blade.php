@@ -53,7 +53,7 @@
                             <li><i class="flaticon-placeholder"></i><span>Jl. Pandugo Gg 2 no.07 Kec. Rungkut, Kota SBY, Jawa Timur</span>
                             </li>
                             {{-- <li><i class="flaticon-envelope"></i><span>hello@home.com</span></li> --}}
-                            <li><i class="flaticon-smartphone"></i><span>081235448344</span></li>
+                            <li><i class="flaticon-smartphone"></i><span>{{ env('PHONE') }}</span></li>
                         </ul>
                         <p>Senin - Minggu </p>
                         <p>00.00 - 24.59</p>
