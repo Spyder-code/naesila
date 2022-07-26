@@ -16,6 +16,7 @@ class CreateMobilsTable extends Migration
         Schema::create('mobil', function (Blueprint $table) {
             $table->id();
             $table->string('nama');
+            $table->string('slug');
             $table->string('harga_hari');
             $table->string('harga_jam');
             $table->text('deskripsi');

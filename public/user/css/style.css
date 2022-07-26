@@ -145,7 +145,7 @@ ol {
 }
 
 .section-title h2 span {
-	color: #30304e;
+	color: #2929c7;
 	font-weight: 500;
 }
 
@@ -355,7 +355,7 @@ ol {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(18, 16, 82, 0.75);
+	background: rgba(39, 85, 235, 0.493);
 	content: "";
 	z-index: -1;
 }

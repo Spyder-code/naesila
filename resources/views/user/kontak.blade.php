@@ -2,7 +2,7 @@
 @section('nav-contact','lightcoral')
 @section('content')
     <!-- Hero Section Begin -->
-    <section class="hero-section set-bg about-us" data-setbg="{{ asset('user/img/3.jpg') }}" style="background-attachment: fixed">
+    <section class="hero-section set-bg about-us" data-setbg="{{ asset('cv-naesila/assets/1.jpeg') }}" style="background-attachment: fixed">
         <div class="container hero-text text-white">
             <h2>Contact</h2>
         </div>

@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
 
 class HomeController extends Controller
 {
@@ -91,7 +92,7 @@ class HomeController extends Controller
             if (file_exists(public_path('images/user/',$request->oldImage))) {
                 unlink(storage_path('app/public/images/user/'.$request->oldImage));
                     if ($files = $request->file('image')) {
-                        $profileImage = $files->getClientOriginalName();
+                        $profileImage = date('dmYHis').$files->getClientOriginalExtension();
                         $path = $files->storeAs('public/images/user', $profileImage);
                         $url = Storage::url($path);
                         $imgUrl = url($url);
@@ -104,7 +105,7 @@ class HomeController extends Controller
             }
         }else{
             if ($files = $request->file('image')) {
-                $profileImage = $files->getClientOriginalName();
+                $profileImage = date('dmYHis').$files->getClientOriginalExtension();
                 $path = $files->storeAs('public/images/user', $profileImage);
                 $url = Storage::url($path);
                 $imgUrl = url($url);
@@ -165,6 +166,7 @@ class HomeController extends Controller
             'harga_hari' => $request->hargaHari,
             'harga_jam' => $request->hargaJam,
             'deskripsi' => $request->deskripsi,
+            'slug' => Str::slug($nama)
         ]);
 
         Kelengkapan::find($request->idKel1)->update([
@@ -197,7 +199,7 @@ class HomeController extends Controller
         }
         if($request->image != null){
             if ($files = $request->file('image')) {
-                $profileImage = $files->getClientOriginalName();
+                $profileImage = date('dmYHis').$files->getClientOriginalExtension();
                 $path = $files->storeAs('public/images/mobil', $profileImage);
                 $url = Storage::url($path);
                 $imgUrl = url($url);
@@ -232,6 +234,7 @@ class HomeController extends Controller
             $imgUrl = url($url);
             $mobil = Mobil::create([
                 'nama' => $nama,
+                'slug' => Str::slug($nama),
                 'harga_hari' => $request->hargaHari,
                 'harga_jam' => $request->hargaJam,
                 'deskripsi' => $request->deskripsi,

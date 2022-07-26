@@ -2,7 +2,7 @@
 @section('imgMeta',$data->image_path)
 @section('content')
     <!-- Hero Section Begin -->
-    <section class="hero-section set-bg single-property-r" data-setbg="{{ asset('user/img/2.jpg') }}" style="background-attachment: fixed">
+    <section class="hero-section set-bg single-property-r" data-setbg="{{ asset('cv-naesila/assets/1.jpeg') }}" style="background-attachment: fixed">
         <div class="container hero-text text-white">
             <h2>Detail Mobil</h2>
         </div>
@@ -96,7 +96,7 @@
                                         <td>Email : <span>spydercode01@gmail.com</span></td>
                                     </tr> --}}
                                 </table>
-                                <a href="https://wa.me/{{ env('PHONE') }}?text=Saya mau tanya tentang mobil {{$data->nama}}%0A{{ url('mobil/'.$data->id) }}" target="_blank" class="site-btn list-btn">Sewa Mobil</a>
+                                <a href="https://wa.me/{{ env('PHONE') }}?text=Saya mau tanya tentang mobil {{$data->nama}}%0A{{ url('mobil/'.$data->slug) }}" target="_blank" class="site-btn list-btn">Sewa Mobil</a>
                             </div>
                         </div>
                     </div>

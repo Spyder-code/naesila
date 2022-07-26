@@ -10,8 +10,8 @@ class UserController extends Controller
 {
     public function index()
     {
-        $data = Mobil::all();
-        return view('user.index',compact('data'));
+        $data = Mobil::all()->take(4);
+        return view('new.index',compact('data'));
     }
 
     public function daftarMobile()
@@ -22,8 +22,7 @@ class UserController extends Controller
 
     public function detailMobil($nama)
     {
-        $data = Mobil::where('nama','LIKE','%'.$nama.'%')
-                ->orWhere('id',$nama)->first();
+        $data = Mobil::where('slug', $nama)->first();
         return view('user.detailMobile',compact('data'));
     }
 

@@ -2,7 +2,7 @@
 @section('nav-mobil','lightcoral')
 @section('content')
         <!-- Hero Section Begin -->
-        <section class="hero-section set-bg search-result" data-setbg="{{ asset('user/img/2.jpg') }}" style="background-attachment: fixed">
+        <section class="hero-section set-bg search-result" data-setbg="{{ asset('cv-naesila/assets/4.jpeg') }}" style="background-attachment: fixed">
             <div class="container hero-text text-white">
                 <h2>Daftar Mobil</h2>
             </div>
@@ -28,7 +28,7 @@
                     @foreach ($data as $item)
                     <div class="col-lg-4 col-md-4 col-md-6">
                         <div class="room-items">
-                            <div class="room-img set-bg" data-setbg="{{ $item->image_path }}">
+                            <div class="room-img set-bg" data-setbg="{{ $item->image_path  }}">
                                 <a href="#" class="room-content">
                                     <i class="flaticon-heart"></i>
                                 </a>
@@ -55,7 +55,7 @@
                                     </div>
                                 </div>
                                 <div class="room-price">
-                                    <a href="https://wa.me/{{ env('PHONE') }}?text=Saya mau tanya tentang mobil {{$item->nama}}%0A{{ url('mobil/'.$item->id) }}" target="_blank" class="site-btn btn-line">WhatsApp</a>
+                                    <a href="https://wa.me/{{ env('PHONE') }}?text=Saya mau tanya tentang mobil {{$item->slug}}%0A{{ url('mobil/'.$item->id) }}" target="_blank" class="site-btn btn-line">WhatsApp</a>
                                 </div>
                                 <a href="{{ url('mobil/'.$item->nama) }}" class="site-btn btn-line">Detail Mobil</a>
                             </div>
