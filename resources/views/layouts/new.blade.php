@@ -61,6 +61,9 @@
                         <a class="nav-link active" href="{{ url('daftar-mobil') }}">Daftar Mobil</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link active" href="{{ url('artikel') }}">Artikel</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link active" href="{{ url('kontak-kami') }}">Hubungi Kami</a>
                     </li>
                 </ul>

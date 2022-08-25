@@ -73,6 +73,7 @@
                     <ul class="main-menu">
                         <li><a href="{{ url('/') }}" style="color: @yield('nav-home')">Home</a></li>
                         <li><a href="{{ url('daftar-mobil') }}" style="color: @yield('nav-mobil')">Daftar Mobil</a></li>
+                        <li><a href="{{ url('artikel') }}" style="color: @yield('nav-mobil')">Artikel</a></li>
                         <li><a href="{{ url('tentang-kami') }}" style="color: @yield('nav-about')">Tentang Kami</a></li>
                         <li><a href="{{ url('kontak-kami') }}" style="color: @yield('nav-contact')">Kontak Kami</a></li>
 
